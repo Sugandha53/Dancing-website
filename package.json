@@ -1,0 +1,17 @@
+{
+  "name": "dancing-website",
+  "version": "1.0.0",
+  "description": "this  is website foe dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "suzo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.19.2",
+    "mongoose": "^8.7.0",
+    "pug": "^3.0.3"
+  }
+}

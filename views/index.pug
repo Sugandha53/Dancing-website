@@ -1,0 +1,62 @@
+doctype html
+html
+  head 
+     style
+      include ../static/style.css
+      //- index.pug
+  body
+      nav#navbar
+            ul
+                div#logo   
+                    img(src="/static/logo.png")
+                    |  HDA
+                   
+                li #[a(href ="/") Home ]
+                li #[a(href ="/") About ]
+                li #[a(href ="/") services]
+                li #[a(href ="/") class Info]
+                li #[a(href ="/") Contact Us] 
+      
+      section#introSection 
+         div Welcome to Suzo's Dance Acadmey 
+         div.small  Eat sleep Dance
+
+      section#missionSection
+         h2 Our Mission 
+         div.card
+             h3 Dance Perfection
+             div.card-box  
+                 div.card-img
+                      img(src="/static/1.png",) 
+                 div.card-content 
+                      p This is best dance academy
+
+         div.card
+             h3 Dance the way you like
+             div.card-box  
+                 div.card-img
+                      img(src="/static/2.png",) 
+                 div.card-content 
+                      p This is best dance academy
+         div.card
+             h3 Expert Teaching
+             div.card-box  
+                 div.card-img
+                      img(src="/static/3.png",) 
+                 div.card-content 
+                      p This is best dance academy
+
+
+      section#sponsorsSection 
+         h3 Our sponsors
+         div#sponsors        
+             img(src="/static/apple.png", alt="Sponsor Image", class="spImage")
+             img(src="/static/hp.png", alt="Sponsor Image", class="spImage")
+             img(src="/static/Microsoft.png", alt="Sponsor Image", class="spImage")
+             img(src="/static/Skype.png", alt="Sponsor Image", class="spImage")
+
+      footer#footer
+        | Copyright © 2024 SuzoAcademy.com | All Rights Reserved
+
+      script
+         include ../static/index.js

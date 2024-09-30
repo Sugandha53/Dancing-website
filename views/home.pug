@@ -1,0 +1,49 @@
+extends base.pug
+
+
+block style 
+  style
+    include ../static/style.css
+
+block scripts
+  script
+    include ../static/index.js
+
+block content
+   
+    section#introSection 
+        div Welcome to Suzo's Studio 
+        div.small Eat sleep Dance
+
+    section#missionSection
+      h2 Our Mission 
+      div.missionContent
+        div.card
+            h3 Dance Perfection
+            div.card-box  
+                div.card-img
+                    img(src="/static/black2.png") 
+                div.card-content 
+                    p  we believe in nurturing talent and cultivating passion through our expertly designed programs
+
+        div.card
+            h3 Dance the way you like
+            div.card-box  
+                div.card-img
+                    img(src="/static/black.png") 
+                div.card-content 
+                    p we celebrate individual expression and creativity in every dance style. 
+        div.card
+            h3 Expert Teaching
+            div.card-box  
+                div.card-img
+                    img(src="/static/3.png") 
+                div.card-content 
+                    p   To providing high-quality instruction from seasoned professionals with years of experience.
+    section#sponsorsSection 
+        h3 Our Sponsors
+        div#sponsors        
+            img(src="/static/apple.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/hp.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/Microsoft.png", alt="Sponsor Image", class="spImage")
+            img(src="/static/Skype.png", alt="Sponsor Image", class="spImage")

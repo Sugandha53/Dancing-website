@@ -1,0 +1,184 @@
+
+@import  url('https://fonts.googleapis.com/css?family=Yeon+Sung | ZCOOL+QingKe+HuangYou&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#logo{
+    display: flex;
+    color:white ;
+    align-items: center;
+    margin: 0px 169px;
+    font-size: 21px;
+
+}
+#logo img{
+    height: 42px;
+    filter: hue-rotate(1);
+    color: #fffbfb;
+}
+
+#navbar {
+
+    background-color: rgb(155 111 152);
+    padding: 18px 14px;
+    font-family: 'Yeon sung';
+}
+
+
+
+#navbar ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#navbar li{
+    list-style: none;
+}
+
+#navbar li a{
+    color: rgb(253, 254, 254);
+    font-size: 27px;
+    text-decoration: none;
+    padding: 13px 30px;
+}
+#navbar li a:hover{
+    color: rgb(3, 11, 18);
+    
+}
+#introSection {
+    padding-bottom: 40px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'ZCOOL Qingke HuangYou';
+    font-size: 65px;
+    justify-content: center;
+    align-items: center;
+    background: center/cover no-repeat url(/static/b5.jpg);
+
+    height: 653px
+    
+}
+#introSection  div.small{
+    
+    font-size: 52px ;
+    padding: 5px;
+}
+#sponsorsSection{
+    height: 300px;
+    background:rgb(243 176 178);
+}
+#sponsorsSection h3{
+    
+    text-align: center;
+    padding-top: 30px;
+    font-family: 'Yeon sung';
+    color: #460b0b;
+    font-size: 1.5em;
+
+}
+#sponsor{
+    height: 120px !important;
+    max-width: 100px !important;
+    margin: auto!important;
+}
+
+.spImage{
+    height: 131px;
+    margin: 56px;
+}
+
+   
+
+#missionSection {
+    background: linear-gradient(to right, #a571a5, #fd9c90c4); /* Background color for the mission section */
+    padding: 40px 0; /* Add vertical padding */
+    color: white; /* Change text color to white for contrast */
+    position: relative; /* Ensure positioning context for backdrop filter */
+}
+
+.missionContent {
+    display: flex;               /* Use flexbox for card layout */
+    flex-direction: row;      /* Stack cards in a column */
+    align-items: center;         /* Center align cards */
+    
+    margin:  6px 231px;
+}
+#missionSection h2 {
+    text-align: center !important;
+    padding-top: 12px !important;
+    font-family: 'Yeon sung' !important;
+}
+
+body {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for demonstration */
+}
+
+.card {
+    margin: 20px; /* Space between cards */
+    display: inline-block; /* Aligns cards horizontally */
+    width: 250px; /* Fixed width for cards */
+   
+    border: 2px solid #ccc; /* Light border for card */
+    border-radius: 10px; /* Rounded corners */
+    background: rgb(155 111 152);
+}
+
+ 
+.card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+.card h3 {
+    margin: 10px 0; /* Margin for heading */
+    font-size: 1.5em; /* Increase font size for heading */
+}
+.card p {
+    margin: 10px 0;             /* Add margin to paragraphs for spacing */
+    line-height: 1.5;           /* Increase line height for better readability */
+}
+
+.card-img {
+    width: 100%; /* Ensure the image container takes full width */
+    height: 150px; /* Fixed height to maintain uniformity across cards */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Hide overflow of large images */
+}
+
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-content {
+    text-align: center; /* Center text horizontally */
+    padding: 10px; /* Space inside the card content */
+    font-size: 1em; /* Set font size */
+    line-height: 1.4em; /* Increase line spacing for better readability */
+    overflow: hidden; /* Hide any overflowing text */
+    height: auto; /* Auto height to accommodate text */
+    white-space: normal; /* Allow text to wrap properly */
+}
+
+
+.card-img img {
+    width: 100%; /* Ensure image fills the width of the container */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+
+#footer{
+    background-color: black;
+    height: 100;
+    color: white;
+    text-align: center;
+}
+
+
